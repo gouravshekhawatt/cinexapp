@@ -5,6 +5,7 @@ import FaqAccordion from "./faqAccordion/FaqAccordion";
 import OptForm from "../Forms/optForm/OptForm";
 import Footer from "./footer/Footer";
 import './homePage.scss'
+import 'https://kit.fontawesome.com/612e6614bd.js'; 
 
 //TODO:overall need to make things big or small based on screen size.
 

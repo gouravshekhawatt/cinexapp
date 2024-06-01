@@ -39,6 +39,26 @@ export default function Footer() {
         </div>
         
       </div>
+      <footer className="custom-footer">
+      <div className="custom-footer-cont">
+        <div className="custom-follow">
+          <h1>Follow me</h1>
+        </div>
+        <div className="custom-logos">
+          <a href="https://www.instagram.com/gouravshekhawatt/" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-square-instagram"></i>
+            <h1>Instagram</h1>
+          </a>
+          <a href="https://www.linkedin.com/in/gourav-singh-a2b59a211" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-linkedin custom-blue"></i>
+            <h1>LinkedIn</h1>
+          </a>
+        </div>
+        <div className="custom-develop">
+          Developed By <span>Gourav Shekhawat</span> || &copy; 2023 All rights reserved
+        </div>
+      </div>
+    </footer>
       {/* <div className="poweredByContainer">
           <div className="text-container">
             <p>Powered by: 

@@ -6,6 +6,7 @@ import Row from "./row/Row";
 import Loading from "../spinner/loading";
 import { mediaRequests } from "../../services/mediaRequests";
 import { FirebaseContext } from "../../context/firebase";
+import Footer from "../homePage/footer/Footer";
 
 import "./styles/index.scss";
 import SelectedProfile from "../profilePage/SelectedProfile";
@@ -53,6 +54,7 @@ export default function BrowsePage() {
 							);
 						}
 					)}
+					<Footer/>
 					{/* <div className="tmdbContainer">
 						<div className="text-container">
 							<p>Powered by: 

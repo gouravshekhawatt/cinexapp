@@ -61,9 +61,9 @@ function NavBar({ user, setProfile, searchTerm, setSearchTerm }) {
 						</Offcanvas.Header>
 						<Offcanvas.Body className="align-items-center">
 							<Nav className="me-auto">
-								<Nav.Link href="#">My List</Nav.Link>
-								<Nav.Link href="#">Movies</Nav.Link>
-								<Nav.Link href="#">Tv Shows</Nav.Link>
+								<Nav.Link href="/browse">My List</Nav.Link>
+								<Nav.Link href="/browse">Movies</Nav.Link>
+								<Nav.Link href="/browse">Tv Shows</Nav.Link>
 							</Nav>
 							<SearchForm
 								searchTerm={searchTerm}
