@@ -6,7 +6,7 @@ import "./header.scss";
 // import WarningMessage from "../../warning/warningMessage";
 
 function Header() {
-	const [open, setOpen] = useState(true);
+	// const [open, setOpen] = useState(true);
 
 	return (
 		<>
