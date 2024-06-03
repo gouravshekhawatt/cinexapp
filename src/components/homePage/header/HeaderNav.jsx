@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar }from 'react-bootstrap/';
+import Screenshot from "./Screenshot__344_-removebg-preview.png"
 import * as ROUTES from "../../../constants/routes";
 
 function HeaderNav() {
@@ -10,7 +11,7 @@ function HeaderNav() {
 				<Navbar.Brand href={ROUTES.HOME} className="netflixLogo">
 					<img
 							className="navLogo"
-							src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+							src={Screenshot}
 							alt="Netflix logo"
 						/>
 				</Navbar.Brand>

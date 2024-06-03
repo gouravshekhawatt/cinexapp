@@ -13,7 +13,7 @@ export default function Footer() {
             <a href={ROUTES.HOME}>Investor Relations</a>
             <a href={ROUTES.HOME}>Ways to Watch</a>
             <a href={ROUTES.HOME}>Corporate Information</a>
-            <a href={ROUTES.HOME}>Netflix Originals</a>
+            <a href={ROUTES.HOME}>Cinax Originals</a>
           </div>
 
           <div className='column'>
@@ -49,13 +49,13 @@ export default function Footer() {
             <i className="fa-brands fa-square-instagram"></i>
             <h1>Instagram</h1>
           </a>
-          <a href="https://www.linkedin.com/in/gourav-singh-a2b59a211" target="_blank" rel="noopener noreferrer">
+          <a href="https://sprightly-sable-d0cfec.netlify.app/" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-linkedin custom-blue"></i>
             <h1>LinkedIn</h1>
           </a>
         </div>
         <div className="custom-develop">
-          Developed By <span>Gourav Shekhawat</span> || &copy; 2023 All rights reserved
+          Developed By <span>Gourav Singh and Ankit Nehra</span> || &copy; 2023 All rights reserved
         </div>
       </div>
     </footer>
