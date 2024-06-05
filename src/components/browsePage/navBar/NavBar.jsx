@@ -6,6 +6,7 @@ import * as ROUTES from "../../../constants/routes";
 import { useMatchMedia } from "../../../helpers/useMatchMedia";
 import SearchForm from "../../Forms/SearchForm";
 import './navBar.scss';
+import logoimg from "./Screenshot__344_-removebg-preview.png";
 
 function NavBar({ user, setProfile, searchTerm, setSearchTerm }) {
 	const [show, handleShow] = useState(false);
@@ -32,13 +33,13 @@ function NavBar({ user, setProfile, searchTerm, setSearchTerm }) {
 						isTabletDesktopResolution ? (
 							<img
 									className="navLogo"
-									src="/images/misc/netflix_desktop_logo.png"
+									src={logoimg}
 									alt="Netflix logo"
 								/>
 						):(
 							<img
 									className="navMobileLogo"
-									src="/images/misc/netflix_2015_n_logo.png"
+									src={logoimg}
 									alt="Netflix Mobile logo"
 								/>
 						)}

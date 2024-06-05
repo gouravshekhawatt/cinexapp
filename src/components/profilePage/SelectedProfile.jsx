@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import * as ROUTES from '../../constants/routes';
 import { useMatchMedia } from "../../helpers/useMatchMedia";
+import logoimg from "../browsePage/navBar/Screenshot__344_-removebg-preview.png"
 
 import './styles/index.scss';
 
@@ -15,13 +16,13 @@ export default function SelectedProfile ({ user, setProfile }) {
 						isTabletDesktopResolution ? (
 							<img
 									className="navLogo"
-									src="/images/misc/netflix_desktop_logo.png"
+									src={logoimg}
 									alt="Netflix logo"
 								/>
 						):(
 							<img
 									className="navMobileLogo"
-									src="/images/misc/netflix_2015_n_logo.png"
+									src={logoimg}
 									alt="Netflix Mobile logo"
 								/>
 						)}

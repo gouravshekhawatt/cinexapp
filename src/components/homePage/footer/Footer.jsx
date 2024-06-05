@@ -13,7 +13,7 @@ export default function Footer() {
             <a href={ROUTES.HOME}>Investor Relations</a>
             <a href={ROUTES.HOME}>Ways to Watch</a>
             <a href={ROUTES.HOME}>Corporate Information</a>
-            <a href={ROUTES.HOME}>Cinax Originals</a>
+            <a href={ROUTES.HOME}>Cinex Originals</a>
           </div>
 
           <div className='column'>
@@ -50,12 +50,12 @@ export default function Footer() {
             <h1>Instagram</h1>
           </a>
           <a href="https://sprightly-sable-d0cfec.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-linkedin custom-blue"></i>
-            <h1>LinkedIn</h1>
+          <i className="fa-brands fa-github"></i>
+            <h1>GitHub</h1>
           </a>
         </div>
         <div className="custom-develop">
-          Developed By <span>Gourav Singh and Ankit Nehra</span> || &copy; 2023 All rights reserved
+          Developed By <span>Gourav Singh and Ankit Nehra</span> ||&copy; 2023 All rights reserved
         </div>
       </div>
     </footer>
