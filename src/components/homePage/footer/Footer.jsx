@@ -54,9 +54,13 @@ export default function Footer() {
             <h1>GitHub</h1>
           </a>
         </div>
-        <div className="custom-develop">
+        {/* <div className="custom-develop">
           Developed By <span>Gourav Singh and Ankit Nehra</span> ||&copy; 2023 All rights reserved
-        </div>
+        </div> */}
+        <div className="custom-develop">
+  Developed with <i className="fa-solid fa-heart" style={{color: "#ec3232"}}></i> by <span>Gourav Singh</span> || &copy; 2024 All rights reserved
+</div>
+
       </div>
     </footer>
       {/* <div className="poweredByContainer">
